@@ -167,6 +167,7 @@ ext {
 }
 
 dependencies {
+  compile "org.apache.axis:axis:1.4"
   compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
   compile "com.android.support:appcompat-v7:$SUPPORT_LIBRARY_VERSION"
